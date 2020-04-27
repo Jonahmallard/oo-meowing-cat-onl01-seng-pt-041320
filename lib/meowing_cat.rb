@@ -1,11 +1,8 @@
 class Cat
-  attr_accessor
+  attr_accessor :name
   def meow
     puts "meow!"
   end
 end
-class Dog 
-  def name=(name)
-    @name = name
-  end
+
  
